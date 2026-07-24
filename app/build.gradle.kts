@@ -39,7 +39,7 @@ android {
     defaultConfig {
         applicationId = "dev.yuyuyuyuyu.barometer"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 37
         versionCode = releaseVersionName?.let(::versionNameToCode) ?: 1
         versionName = releaseVersionName ?: "0.0.0"
 
